@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Calibri, sans-serif;
+  background: linear-gradient(to bottom, #3f003a, #970083); /* light to dark purple */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: rgb(255, 255, 255);
+}
+
+.profile-card {
+  background-color: #1a1a2e;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(5, 5, 5, 0.5);
+  padding: 2em;
+  max-width: 900px;
+  width: 90%;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px solid #970083;
+  box-shadow: 0 0 20px #1a1a2e;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 0.5em 0 0.2em;
+  color: white;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.role-tag {
+  background-color: #7c4dff;
+  color: white;
+  padding: 0.3em 1em;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+}
+
+h2 {
+  margin-top: 1em;
+  color: #e0e0ff;
+  border-bottom: 1px solid #7c4dff;
+  padding-bottom: 0.3em;
+}
+
+.skill-group {
+  margin-bottom: 1em;
+}
+
+.skill-group span {
+  display: inline-block;
+  background-color: #2d2d44;
+  padding: 0.4em 0.8em;
+  margin: 0.2em;
+  border-radius: 8px;
+  font-size: 0.9em;
+}
+.skill-group span:hover {
+  background-color: #9b0c83;
+  cursor: pointer;
+}
+.skill-group span:active {
+  transform: scale(0.95);
+}
+.skill-group span:focus {
+  outline: 2px solid #f34bdd;
+}
+.skill-group span:focus-visible {
+  outline: 2px solid #e915d7;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+.social-links a {
+  color: #b388ff;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+span {
+  background-color: transparent;
+}
+
+
+
